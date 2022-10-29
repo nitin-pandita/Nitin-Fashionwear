@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=dvice-width, initial-scale=1.0" />
+    <title>All Products | Nitin FashionWear</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="header">
+      <div class="container">
+        <div class="navbar">
+          <div class="logo">
+            <a href="index.html"><img src="img/Screenshot (18).png" alt="logo image" width="125px"></a> 
+          </div>
+          <nav>
+              <ul id="MenuItems">
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="product.html">Product</a></li>
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="account.html">Contact</a></li>
+              </ul>
+          </nav>
+          <a href="Cart.html"><img src="img/shop.png" width="30px" height="30px" alt=""></a>
+          
+          <img src="img/menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+      </div>
+
+
+      <!-- cart item details  -->
+
+<div class="small-container cart-page">
+    <table>
+        <tr>
+            <th>Product</th>
+            <th>Quantity</th>
+            <th>Subtotal</th>
+        </tr>
+        <tr>
+            <td>
+                <div class="cart-info">
+                    <img src="img/gallery1.jpg" alt="" width="120px">
+                    <div>
+                        <p>4 combo T-shirt</p>
+                        <small>₹304</small>
+                        <br>
+                        <a href="">Remove</a>
+                    </div>
+                </div>
+            </td>
+            <td><input type="number" value="1"></td>
+            <td>₹304</td>
+        </tr>
+        <tr>
+            <td>
+                <div class="cart-info">
+                    <img src="img/asusrog.png" alt="" width="120px">
+                    <div>
+                        <p>Rog Phone</p>
+                        <small>₹49,999.</small>
+                        <br>
+                        <a href="">Remove</a>
+                    </div>
+                </div>
+            </td>
+            <td><input type="number" value="1"></td>
+            <td>₹49,999</td>
+        </tr>
+        <tr>
+            <td>
+                <div class="cart-info">
+                    <img src="img/boat.jpg" alt="" width="120px">
+                    <div>
+                        <p>Boat Rockerz 450</p>
+                        <small>₹3500</small>
+                        <br>
+                        <a href="">Remove</a>
+                    </div>
+                </div>
+            </td>
+            <td><input type="number" value="1"></td>
+            <td>₹3500</td>
+        </tr>
+        <tr>
+            <td>
+                <div class="cart-info">
+                    <img src="img/mac (1).png" alt="" width="120px">
+                    <div>
+                        <p>MacBook Pro</p>
+                        <small>₹150000</small>
+                        <br>
+                        <a href="">Remove</a>
+                    </div>
+                </div>
+            </td>
+            <td><input type="number" value="1"></td>
+            <td>₹150000</td>
+        </tr>
+    </table>
+    <div class="total-price">
+        <table>
+            <tr>
+                <td>Subtotal</td>
+                <td>₹150000</td>
+            </tr>
+            <tr>
+                <td>Tax</td>
+                <td>₹150</td>
+            </tr>
+            <tr>
+                <td>GST</td>
+                <td>₹142030</td>
+            </tr>
+        </table>
+    </div>
+</div>
+
+
+
+
+    <!-- ---------------Footer -------------- -->
+
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col-1">
+            <h3>Download Our App</h3>
+            <p>Download the App for Android and ISO Mobile phone</p>
+            <div class="app-logo">
+              <img src="img/playstore (1).png" alt="" />
+              <img src="img/istore (1).png" alt="" />
+            </div>
+          </div>
+          <div class="footer-col-2">
+            <img src="img/Screenshot (18).png" alt="" />
+            <p>Everything you need at one place Order Now</p>
+          </div>
+          <div class="footer-col-3">
+            <h3>UseFul Links</h3>
+            <ul>
+              <li>Coupons</li>
+              <li>Blog Post</li>
+              <li>Return Policy</li>
+              <li>Job Affiliate</li>
+            </ul>
+          </div>
+          <div class="footer-col-4">
+            <h3>Follow us</h3>
+            <ul>
+              <li>Facebook</li>
+              <li>Twitter</li>
+              <li>Instagram</li>
+              <li>Job Affiliate</li>
+            </ul>
+          </div>
+        </div>
+        <hr />
+        <p class="copyright">Copyright 2022 - Nitin Pandita</p>
+      </div>
+    </div>
+
+    <!-- ----------- js for toggle menu--------- -->
+    <script>
+      var MenuItems = document.getElementById("MenuItems");
+
+      MenuItems.style.maxHeight = "0px";
+      function menutoggle() {
+        if (MenuItems.style.maxHeight == "0px") {
+          MenuItems.style.maxHeight = "200px";
+        } else {
+          MenuItems.style.maxHeight = "0px";
+        }
+      }
+    </script>
+
+  </body>
+</html>
