@@ -7,11 +7,30 @@
 body {
     font-family: 'Poppins', sans-serif;
 }
+
+.logo{
+    position: fixed;
+    top: 0;
+    left: 0;
+}
 .navbar {
+    overflow: hidden;
+    position: fixed;
     display: flex;
+    top: 0;
+    width: 100%;
     align-items: center;
     padding: 20px;
 }
+.navbar a {
+    float: left;
+    display: block; 
+    text-align: center;
+    padding: 15px 18px;
+    text-decoration: none;
+    font-size: 18px;
+  }
+
 .header {
 }
 nav {
