@@ -2,7 +2,9 @@
 ![website](https://user-images.githubusercontent.com/91310284/235405123-58fe9f8d-fcad-458c-a3b3-44ed8338ce7a.png)
 
 
-A website to list tech twitter creators, across the world.
+Nitin Fashionwear is a fashion brand based in India that offers a wide range of clothing products for men and women. The brand has a strong e-commerce presence, with its products available for purchase on various online platforms, including its own website as well as Amazon, Flipkart, and Myntra.
+
+Nitin Fashionwear's e-commerce website is easy to navigate, with products organized by category and a search function to help customers find specific items. The website offers features such as cash on delivery, easy returns, and fast shipping, providing a convenient and hassle-free shopping experience for customers.
 
 ## Languages/Tools
 
