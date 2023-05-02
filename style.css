@@ -14,13 +14,16 @@ body {
     left: 0;
 }
 .navbar {
-    overflow: hidden;
+    background: radial-gradient(#957777,#FFF9DE);
     position: fixed;
     display: flex;
+    right: 0;
     top: 0;
     width: 100%;
     align-items: center;
+    border-radius: 6px;
     padding: 20px;
+    padding-left: 30px;
 }
 .navbar a {
     float: left;
