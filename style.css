@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -6,6 +7,14 @@
 
 body {
     font-family: 'Poppins', sans-serif;
+}
+body { margin: 0; padding: 0; }
+
+h1{
+  color: white;
+  font-family: arial;
+  font-weight: bold;
+  font-size: 3em;
 }
 
 .logo{
@@ -143,19 +152,24 @@ p {
 }
 
 .col-4 {
+    size: 1.5;
     flex-basis: 25%;
     padding: 10px;
     min-width: 200px;
     margin-bottom: 50px;
     align-items: center;
     text-align: center;
-    transition: transform 0.5s;
+    transition: all 1.7s cubic-bezier(0.81, 0.29, 0.24, 0.68);
 }
 
+.col-4:hover {
+    width: 200px;
+  }
 
 .col-4 img {
     width: 100%;
 }
+
 
 .title {
     text-align: center;
