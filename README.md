@@ -6,6 +6,13 @@ Nitin Fashionwear is a fashion brand based in India that offers a wide range of 
 
 Nitin Fashionwear's e-commerce website is easy to navigate, with products organized by category and a search function to help customers find specific items. The website offers features such as cash on delivery, easy returns, and fast shipping, providing a convenient and hassle-free shopping experience for customers.
 
+## 💪🏽 Contributors
+
+Thank you so much all for spending your time to improve Nitin-Fashionwear. Keep shining ⭐
+
+[![Contributors](https://contrib.rocks/image?repo=nitin-pandita/Nitin-Fashionwear)](https://github.com/nitin-pandita/Nitin-Fashionwear/graphs/contributors)
+
+
 ## Languages/Tools
 
 <a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/html5-colored.svg" width="36" height="36" alt="HTML5" /></a>
@@ -91,11 +98,7 @@ npm run start
 
 Nitin-Fashionwear is licensed under the MIT License - see the [LICENSE](Licence) file for details.
 
-## 💪🏽 Contributors
 
-Thank you so much all for spending your time to improve Nitin-Fashionwear. Keep shining ⭐
-
-[![Contributors](https://contrib.rocks/image?repo=nitin-pandita/Nitin-Fashionwear)](https://github.com/nitin-pandita/Nitin-Fashionwear/graphs/contributors)
 
 ## 🙏🏽 Support
 
