@@ -7,14 +7,10 @@ assignees: ''
 
 ---
 
-**Is your feature request related to a problem? Please describe.**
-A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
+Fixed #IssueNumber
 
-**Describe the solution you'd like**
-A clear and concise description of what you want to happen.
+Check (put an 'x' between the square brackets) everything which applies:
 
-**Describe alternatives you've considered**
-A clear and concise description of any alternative solutions or features you've considered.
+- [ ] I have added the issue number for which this pull request is created.
 
-**Additional context**
-Add any other context or screenshots about the feature request here.
+@nitin-pandita, please let me know about this update.
