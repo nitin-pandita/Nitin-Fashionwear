@@ -90,8 +90,8 @@ cd Nitin-Fashionwear
 ## 🚀 Running locally
 To run locally, just `cd` into the project and run the following commands to run node modules and serve the website locally.
 ```bash
-npm i
-npm run start
+- open index.html file
+- run your live server and the website will be live
 ```
 
 ## 🛡️ License
