@@ -8,9 +8,17 @@ body {
   font-family: "Poppins", sans-serif;
 }
 .navbar {
-  display: flex;
-  align-items: center;
-  padding: 20px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height:125px;
+    padding: 20px 55px 0 55px;
+    background-color: white;
+    z-index: 999;
+
 }
 .header {
 }
@@ -84,7 +92,7 @@ p {
   left: 47%;
 }
 .header .row {
-  margin-top: 70px;
+    margin-top: 227.896px;
 }
 
 .categories {
