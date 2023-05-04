@@ -346,7 +346,7 @@
     let url = window.location.href.split('/');
     let tag = document.getElementById("liTag");
 
-    if(url[url.length - 1] === 'index.html'){
+    if(url[url.length - 1] === 'index.html' || url[url.length - 1] === ''){
         tag.style.borderBottom = "1.5px solid black";
     }
 
