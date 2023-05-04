@@ -27,11 +27,11 @@
             <a href="index.html"><img src="img/Screenshot (18).png" alt="logo image" width="125px"></a> 
         </div>
         <nav>
-            <ul id="MenuItems">
+            <ul id="MenuItems" class="menu3">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="product.html">Product</a></li>
                 <li><a href="about.html">About</a></li>
-                <li><a href="account.html">Contact</a></li>
+                <li id="liTag"><a href="account.html">Contact</a></li>
             </ul>
         </nav>
         <a href="Cart.html"><img src="img/shop.png" width="30px" height="30px" alt=""></a>
@@ -121,6 +121,13 @@
 
     <!-- ----------- js for toggle menu--------- -->
     <script>
+      let url = window.location.href.split('/');
+      let tag = document.getElementById("liTag");
+
+      if(url[url.length - 1] === 'account.html'){
+          tag.style.borderBottom = "1.5px solid black";
+      }
+
       var MenuItems = document.getElementById("MenuItems");
 
       MenuItems.style.maxHeight = "0px";
