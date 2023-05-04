@@ -1,7 +1,7 @@
 ![Nitin-Fashionwear](https://socialify.git.ci/nitin-pandita/Nitin-Fashionwear/image?description=1&descriptionEditable=A%20place%20for%20Developers&forks=1&issues=1&language=1&name=1&owner=1&pulls=1&stargazers=1&theme=Light)
 
 <p align="center">
-  <a href="https://frontendprojects.netlify.app/">
+  <a href="https://nitin-pandita.github.io/Nitin-Fashionwear/">
     <img src="https://forthebadge.com/images/badges/check-it-out.svg">
    </a>
 </p>
