@@ -123,7 +123,7 @@ p {
 .small-container {
 
     max-width: 1080px;
-    margin: auto;
+    margin-top:150px;
 }
 
 .col-4 {
