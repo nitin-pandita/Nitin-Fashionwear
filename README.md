@@ -1,110 +1,130 @@
+![Nitin-Fashionwear](https://socialify.git.ci/nitin-pandita/Nitin-Fashionwear/image?description=1&descriptionEditable=A%20place%20for%20Developers&forks=1&issues=1&language=1&name=1&owner=1&pulls=1&stargazers=1&theme=Light)
+
+<p align="center">
+  <a href="https://frontendprojects.netlify.app/">
+    <img src="https://forthebadge.com/images/badges/check-it-out.svg">
+   </a>
+</p>
 
 
-![Front-End-Projects](https://socialify.git.ci/nitin-pandita/Nitin-Fashionwear/image?description=1&descriptionEditable=A%20place%20for%20Developers&forks=1&issues=1&language=1&name=1&owner=1&pulls=1&stargazers=1&theme=Light)
+<div align="center">
+ <p>
 
-# Nitin-Fashionwear
+[![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
+![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)
+![Visitors](https://api.visitorbadge.io/api/visitors?path=nitin-pandita%2FNitin-Fashionwear%20&countColor=%23263759&style=flat)
+![GitHub forks](https://img.shields.io/github/forks/nitin-pandita/Nitin-Fashionwear
+)
+![GitHub Repo stars](https://img.shields.io/github/stars/nitin-pandita/Nitin-Fashionwear
+)
+![GitHub contributors](https://img.shields.io/github/contributors/nitin-pandita/Nitin-Fashionwear
+)
+![GitHub last commit](https://img.shields.io/github/last-commit/nitin-pandita/Nitin-Fashionwear
+)
+  
+![GitHub repo size](https://img.shields.io/github/repo-size/nitin-pandita/Nitin-Fashionwear)
 
-![website](https://user-images.githubusercontent.com/91310284/235405123-58fe9f8d-fcad-458c-a3b3-44ed8338ce7a.png)
+![Github](https://img.shields.io/github/license/nitin-pandita/Nitin-Fashionwear)
+![GitHub issues](https://img.shields.io/github/issues/nitin-pandita/Nitin-Fashionwear
+)
+![GitHub closed issues](https://img.shields.io/github/issues-closed-raw/nitin-pandita/Nitin-Fashionwear)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/nitin-pandita/Nitin-Fashionwear
+)
+![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/nitin-pandita/Nitin-Fashionwear
+)
+ </p>
+</div>
+ 
+ ## 📌 Open Source Program
 
+ ### This project is a part of following Open Source Programs
 
-Nitin Fashionwear is a fashion brand based in India that offers a wide range of clothing products for men and women. The brand has a strong e-commerce presence, with its products available for purchase on various online platforms, including its own website as well as Amazon, Flipkart, and Myntra.
+ ---
 
-Nitin Fashionwear's e-commerce website is easy to navigate, with products organized by category and a search function to help customers find specific items. The website offers features such as cash on delivery, easy returns, and fast shipping, providing a convenient and hassle-free shopping experience for customers.
+<div align="center">
 
-## 💪🏽 Contributors
+![SWOC 3.0](https://raw.githubusercontent.com/nitin-pandita/Nitin-Fashionwear/main/img/9630b803-7d9b-4b19-ae68-cdbfc16c8254.png)
 
-Thank you so much all for spending your time to improve Nitin-Fashionwear. Keep shining ⭐
-
-[![Contributors](https://contrib.rocks/image?repo=nitin-pandita/Nitin-Fashionwear)](https://github.com/nitin-pandita/Nitin-Fashionwear/graphs/contributors)
-
-
-## Languages/Tools
-
-<a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/html5-colored.svg" width="36" height="36" alt="HTML5" /></a>
-<a href="https://www.w3.org/TR/CSS/#css" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/css3-colored.svg" width="36" height="36" alt="CSS3" /></a>
-<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/javascript-colored.svg" width="36" height="36" alt="JavaScript" /></a>
-
-## 👩🏽‍💻 Demo
-
-Check out the website: [Nitin-Fashionwear](https://niitn-fashionwear-3xuy23x4b-nitin-pandita.vercel.app/)
-
-## 👇🏽 Prerequisites
-
-Before installation, please make sure you have already installed the following tools:
-
-- [Git](https://git-scm.com/downloads)
-
-## 🛠️ Installation Steps
-
-- [Fork](https://github.com/nitin-pandita/Nitin-Fashionwear/fork) the project. Click on the <a href="https://github.com/nitin-pandita/Nitin-Fashionwear/fork"><img src="https://i.imgur.com/G4z1kEe.png" height="15" width="15"></a> icon in the top right to get started.
-
-- Use these commands in your git bash to make a clone of the project in your pc.
-
-### SSH [Github Docs](https://docs.github.com/en/authentication/connecting-to-github-with-ssh)
-
-```bash
-$ git clone git@github.com:username/Nitin-Fashionwear
-```
-
-### GitHub CLI
-
-```bash
-$ gh repo clone username/Nitin-Fashionwear
-```
-
-### HTTPS
-
-```bash
-$ git clone https://github.com/username/Nitin-Fashionwear
-```
-
-- Navigate to the project directory:
-
-```bash
-cd Nitin-Fashionwear
-```
-
-## 🔥 Add your profile
-
-1. Fork the project:
-
-- Click the gray `Fork` button in the top right of this page. This creates _your_ copy of the project and saves it as a new repository in your github account
-
-2. Create a New Branch:
-
-- On your new repository's page, click the gray `main` button in the upper left to reveal a dropdown menu.
-- Enter the name of your new branch in the text box. (Branch names usually make a reference to what is being changed. Example: `profileAdd`).
-- Click on `Create branch <new branch name>` and this will automatically take you to your new branch. You can make edits on the main branch, but this may cause issues down the line. Best practice is to create a new branch for each separate issue you work on. That way your `main` branch remains in sync with Nitin-Fashionwear `main` branch.
-
-3. Navigate to file:
-
-- Navigate to the profile/profile.json file.
-
-4. Edit:
-
-- On the top right of the JSON file, click on the pencil icon to edit the file by adding your image, name and username.
-- You can add JSON object wherever you want in the file, it will automatically arrange according to alphabetical order.
-- After editing the JSON file, add a commit message and click on the green button saying "Commit Changes". Make sure you have selected the branch you have created.
-
-5. Raise a Pull Request:
-
-- And finally create a [Pull Request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)!
-- Great job! You did it!
+</div>
 
 
-## 🚀 Running locally
-To run locally, just `cd` into the project and run the following commands to run node modules and serve the website locally.
-```bash
-- open index.html file
-- run your live server and the website will be live
-```
-
-## 🛡️ License
-
-Nitin-Fashionwear is licensed under the MIT License - see the [LICENSE](Licence) file for details.
+ ---
 
 
 
-## 🙏🏽 Support
 
-This project needs a star️ from you. Don't forget to leave a star 🌟
+
+<h2 align= center> Tech Stacks used ✨ </h2>
+
+<p align="center">
+   <a href="https://www.W3schools.com/html/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="100" height="100"/></a>
+  <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png" alt="css3" width="100" height="100"/> </a> <a href="https://dart.dev" target="_blank" rel="noreferrer"></a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://cdn.cdnlogo.com/logos/j/69/javascript.svg" alt="JS" width="80" height="80"/></a>
+</p>
+
+<h2 align=center> 👨🏻‍💻 How to get started? </h2> 
+
+You can refer to the following articles on **_basics of Git and Github and also contact the Project Mentors, in case you are stuck_**:
+
+- [Forking a Repo](https://help.github.com/en/github/getting-started-with-github/fork-a-repo)
+- [Cloning a Repo](https://help.github.com/en/desktop/contributing-to-projects/creating-a-pull-request)
+- [How to create a Pull Request](https://opensource.com/article/19/7/create-pull-request-github)
+- [Getting started with Git and GitHub](https://towardsdatascience.com/getting-started-with-git-and-github-6fcd0f2d4ac6)
+
+
+<h2 align=center> 📝 How to Contribute? </h2>  
+
+- Take a look at the Existing Issues or create your own Issues!
+- Wait for the Issue to be assigned to you after which you can start working on it.
+- Fork the Repo and create a Branch for any Issue that you are working upon.
+- Create a Pull Request which will be promptly reviewed and suggestions would be added to improve it.
+- Add Screenshots to help us know what this Script is all about.
+
+# Contruibuting Guidelines
+
+While on one hand our repository is a good place for beginners to contribute something useful to open source, on the other hand it is also a good place for experienced people to contribute something useful to open source. We welcome contributions from everyone.
+However some people tend to spam the repository with irrelevant pull requests and get one PR for SWoC 3.0 and other such open source events. We do not want that to happen. So we have a few guidelines that we would like you to follow.
+In case we find your PR not relevant or spam, we will mark it as invalid and it will not be counted towards SWoC 3.0.
+
+
+## 🔗 Links
+
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nitin-pandita-148070213/)
+
+
+<h2 align=center>⭐Stars Chart</h2>  
+
+## Stargazers over time
+
+[![Stargazers over time](https://starchart.cc/nitin-pandita/Nitin-Fashionwear.svg)](https://starchart.cc/nitin-pandita/Nitin-Fashionwear)
+
+<h2 align=center>Project Admin</h2> 
+<table align="center">
+	<tr >
+    <td align="center">
+            <a href="https://github.com/nitin-pandita">
+              <img src="https://i.pinimg.com/474x/a3/1f/8e/a31f8e06e89d4ec031ba7150687030ce.jpg" width="100px" alt=""/><br />
+              <sub><b>nitin-pandita</b></sub>
+            </a>
+   </td>
+  </tr>
+</table>
+
+
+<h2 align=center>Project Contributors⭐</h2> 
+<table align="center">
+  <tr>
+    <td>
+       <a href="https://github.com/nitin-pandita/Nitin-Fashionwear/graphs/contributors" align="center">
+          <img src="https://contrib.rocks/image?repo=nitin-pandita/Nitin-Fashionwear" />
+       </a>
+    </td>
+  </tr>
+</table>
+
+<hr>
+
+<h1 align=center>Happy Coding 👨‍💻</h1>
+
+Show some ❤️&nbsp; by giving the star to this repo
+
