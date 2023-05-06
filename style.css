@@ -10,7 +10,14 @@ body {
 .navbar {
     display: flex;
     align-items: center;
-    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height:125px;
+    padding: 20px 55px 0 55px;
+    background-color: white;
+    z-index: 999;
 }
 .header {
 }
@@ -90,7 +97,7 @@ p {
     left: 47%;
 }
 .header .row {
-    margin-top: 70px;
+    margin-top: 227.896px;
 }
 
 .categories {
@@ -117,7 +124,7 @@ p {
 .small-container {
 
     max-width: 1080px;
-    margin: auto;
+    margin-top:150px auto 0px auto;
 }
 
 .col-4 {
