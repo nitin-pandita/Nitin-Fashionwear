@@ -20,142 +20,166 @@
     />
   </head>
   <body>
-    <div class="header">
-      <div class="container">
-        <div class="navbar">
-          <div class="logo">
-            <a href="index.html"><img src="img/Screenshot (18).png" alt="logo image" width="125px"></a> 
-        </div>
-        <nav>
-            <ul id="MenuItems">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="product.html">Product</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="account.html">Contact</a></li>
-            </ul>
-        </nav>
-        <a href="Cart.html"><img src="img/shop.png" width="30px" height="30px" alt=""></a>
-        
-        <img src="img/menu.png" class="menu-icon" onclick="menutoggle()">
-        </div>
-      </div>
+      <div class="header">
+          <div class="container">
+              <div class="navbar">
+                  <div class="logo">
+                      <a href="index.html"><img src="img/Screenshot (18).png" alt="logo image" width="125px"></a>
+                  </div>
+                  <nav>
+                      <ul id="MenuItems">
+                          <li><a href="index.html">Home</a></li>
+                          <li><a href="product.html">Product</a></li>
+                          <li><a href="about.html">About</a></li>
+                          <li><a href="account.html">Contact</a></li>
+                      </ul>
+                  </nav>
+                  <a href="Cart.html"><img src="img/shop.png" width="30px" height="30px" alt=""></a>
 
-
-<!-- --------------- Account Page ----------  -->
-
-<div class="account-page">
-    <div class="container">
-        <div class="row">
-            <div class="col-2">
-                <img src="img/NicePng_united-states-png_700924.png" alt="" width="100%">
-
-            </div>
-            <div class="col-2">
-                <div class="form-container">
-                    <div class="form-btn">
-                        <span onclick="login()">Login</span>
-                        <span onclick="register()">Sign Up </span>
-                        <hr id="Indicator">
-                    </div>
-                    <form id="LoginForm">
-                        <input type="text" placeholder="Enter Username">
-                        <input type="password" placeholder="password">
-                        <button type="submit" class="btn">Login</button>
-                        <a href="">Forget Password</a>
-                    </form>
-                    <form id="RegForm">
-                        <input type="text" placeholder="Username">
-                        <input type="text" placeholder="Email">
-                        <input type="password" placeholder="Password">
-                        <button type="submit" class="btn">Register</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-
-
-    <!-- ---------------Footer -------------- -->
-
-    <div class="footer">
-      <div class="container">
-        <div class="row">
-          <div class="footer-col-1">
-            <h3>Download Our App</h3>
-            <p>Download the App for Android and ISO Mobile phone</p>
-            <div class="app-logo">
-              <img src="img/playstore (1).png" alt="" />
-              <img src="img/istore (1).png" alt="" />
-            </div>
+                  <img src="img/menu.png" class="menu-icon" onclick="menutoggle()">
+              </div>
           </div>
-          <div class="footer-col-2">
-            <img src="img/Screenshot (18).png" alt="" />
-            <p>Everything you need at one place Order Now</p>
+
+
+          <!-- --------------- Account Page ----------  -->
+
+          <div class="account-page">
+              <div class="container">
+                  <div class="row">
+                      <div class="col-2">
+                          <img src="img/NicePng_united-states-png_700924.png" alt="" width="100%">
+
+                      </div>
+                      <div class="col-2">
+                          <div class="form-container">
+                              <div class="form-btn">
+                                  <span onclick="login()">Login</span>
+                                  <span onclick="register()">Sign Up </span>
+                                  <hr id="Indicator">
+                              </div>
+                              <form id="LoginForm">
+                                  <input type="text" placeholder="Enter Username" name="username" id="username">
+                                  <input type="password" placeholder="password" name="password" id="password">
+                                  <button type="submit" id="button" class="btn">Login</button>
+                                  <a href="">Forget Password</a>
+                              </form>
+
+                              <form id="RegForm">
+                                  <input type="text" placeholder="Username" name="username" id="username">
+                                  <input type="text" placeholder="Email" name="email" id="email">
+                                  <input type="password" placeholder="Password" name="password" id="password">
+                                  <button type="submit" id="regbutton" class="btn">Register</button>
+                              </form>
+                          </div>
+                      </div>
+                  </div>
+              </div>
           </div>
-          <div class="footer-col-3">
-            <h3>UseFul Links</h3>
-            <ul>
-              <li>Coupons</li>
-              <li>Blog Post</li>
-              <li>Return Policy</li>
-              <li>Job Affiliate</li>
-            </ul>
+          <script type="text/javascript"
+                  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+          <!--email ID -->
+          <script type="text/javascript">
+              emailjs.init('cJk7P10b62bDGOsiW')
+          </script>
+          <!--JS login notification-->
+          <script>
+              const btn = document.getElementById('button');
+              document.getElementById('LoginForm')
+                  .addEventListener('submit', function (event) {
+                      event.preventDefault();
+                      const serviceID = 'default_service';
+                      const templateID = 'template_fpguiap';
+                      emailjs.sendForm(serviceID, templateID, this)
+                  });
+          </script>
+          <!--JS  sign UP notification-->
+          <script>
+              const btn1 = document.getElementById('regbutton');
+              document.getElementById('RegForm')
+                  .addEventListener('submit', function (event) {
+                      event.preventDefault();
+                      const serviceID = 'default_service';
+                      const templateID = 'template_1ubd5de';
+                      emailjs.sendForm(serviceID, templateID, this)
+                  });</script>
+          <!-- ---------------Footer -------------- -->
+
+          <div class="footer">
+              <div class="container">
+                  <div class="row">
+                      <div class="footer-col-1">
+                          <h3>Download Our App</h3>
+                          <p>Download the App for Android and ISO Mobile phone</p>
+                          <div class="app-logo">
+                              <img src="img/playstore (1).png" alt="" />
+                              <img src="img/istore (1).png" alt="" />
+                          </div>
+                      </div>
+                      <div class="footer-col-2">
+                          <img src="img/Screenshot (18).png" alt="" />
+                          <p>Everything you need at one place Order Now</p>
+                      </div>
+                      <div class="footer-col-3">
+                          <h3>UseFul Links</h3>
+                          <ul>
+                              <li>Coupons</li>
+                              <li>Blog Post</li>
+                              <li>Return Policy</li>
+                              <li>Job Affiliate</li>
+                          </ul>
+                      </div>
+                      <div class="footer-col-4">
+                          <h3>Follow us</h3>
+                          <ul>
+                              <li>Facebook</li>
+                              <li>Twitter</li>
+                              <li>Instagram</li>
+                              <li>Job Affiliate</li>
+                          </ul>
+                      </div>
+                  </div>
+                  <hr />
+                  <p class="copyright">Copyright 2022 - Nitin Pandita</p>
+              </div>
           </div>
-          <div class="footer-col-4">
-            <h3>Follow us</h3>
-            <ul>
-              <li>Facebook</li>
-              <li>Twitter</li>
-              <li>Instagram</li>
-              <li>Job Affiliate</li>
-            </ul>
-          </div>
-        </div>
-        <hr />
-        <p class="copyright">Copyright 2022 - Nitin Pandita</p>
-      </div>
-    </div>
 
-    <!-- ----------- js for toggle menu--------- -->
-    <script>
-      var MenuItems = document.getElementById("MenuItems");
+          <!-- ----------- js for toggle menu--------- -->
+          <script>
+              var MenuItems = document.getElementById("MenuItems");
 
-      MenuItems.style.maxHeight = "0px";
-      function menutoggle() {
-        if (MenuItems.style.maxHeight == "0px") {
-          MenuItems.style.maxHeight = "200px";
-        } else {
-          MenuItems.style.maxHeight = "0px";
-        }
-      }
-    </script>
+              MenuItems.style.maxHeight = "0px";
+              function menutoggle() {
+                  if (MenuItems.style.maxHeight == "0px") {
+                      MenuItems.style.maxHeight = "200px";
+                  } else {
+                      MenuItems.style.maxHeight = "0px";
+                  }
+              }
+          </script>
 
 
-<!-- --------- Js for Toggle form ------------  -->
+          <!-- --------- Js for Toggle form ------------  -->
 
-<script>
-    var LoginForm = document.getElementById("LoginForm");
+          <script>
+              var LoginForm = document.getElementById("LoginForm");
 
-    var RegForm = document.getElementById("RegForm");
+              var RegForm = document.getElementById("RegForm");
 
-    var Indicator = document.getElementById("Indicator");
+              var Indicator = document.getElementById("Indicator");
 
-    function register() {
-        RegForm.style.transform = "translateX(0px)";
+              function register() {
+                  RegForm.style.transform = "translateX(0px)";
 
-        LoginForm.style.transform = "translateX(0px)";
-        Indicator.style.transform = "translateX(100px)";
-    }
-    function login() {
-        RegForm.style.transform = "translateX(300px)";
+                  LoginForm.style.transform = "translateX(0px)";
+                  Indicator.style.transform = "translateX(100px)";
+              }
+              function login() {
+                  RegForm.style.transform = "translateX(300px)";
 
-        LoginForm.style.transform = "translateX(300px)";
-        Indicator.style.transform = "translateX(0px)";
-    }
-</script>
+                  LoginForm.style.transform = "translateX(300px)";
+                  Indicator.style.transform = "translateX(0px)";
+              }
+          </script>
 
-  </body>
+</body>
 </html>
