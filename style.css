@@ -137,8 +137,10 @@ p {
 }
 
 .small-container {
-  max-width: 1080px;
-  margin: auto;
+
+    max-width: 1080px;
+    margin:150px auto 0px auto;
+
 }
 
 .col-4 {
