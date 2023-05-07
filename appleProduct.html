@@ -34,7 +34,8 @@
               <li><a href="account.html">Contact</a></li>
             </ul>
           </nav>
-          <img src="img/shop.png" width="30px" height="30px" alt="" />
+          <a href="Cart.html">
+          <img src="img/shop.png" width="30px" height="30px" alt="" /></a>
           <img src="img/menu.png" class="menu-icon" onclick="menutoggle()" />
         </div>
       </div>
@@ -66,15 +67,15 @@
 
           <div class="col-2">
             <p>I-Phone 13</p>
-            <h1>Apple iPhone 13 (128GB) - Midnight</h1>
-            <h4>₹66,900.</h4>
+            <h1 id="product_name">Apple iPhone 13 (128GB) - Midnight</h1>
+            <h4 id="prod_price">₹67,000.</h4>
             <select>
               <option value="">Select Color</option>
               <option value="">Midnight</option>
               <option value="">(PRODUCT)RED</option>
             </select>
             <input type="number" value="1" />
-            <a href="" class="btn">Add to Cart</a>
+            <a href="" class="btn add_crt_btn">Add to Cart</a>
             <h3>Product Details <i class="fa fa-indent"> </i></h3>
             <br />
             <p>
@@ -231,5 +232,6 @@
         ProductImg.src = SmallImg[4].src;
       };
     </script>
+    <script src="index.js"></script>
   </body>
 </html>
