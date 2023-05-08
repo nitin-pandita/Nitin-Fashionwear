@@ -24,59 +24,66 @@
       <div class="container">
         <div class="navbar">
           <div class="logo">
-            <a href="index.html"><img src="img/Screenshot (18).png" alt="logo image" width="125px"></a> 
-        </div>
-        <nav>
+            <a href="index.html"
+              ><img
+                src="img/Screenshot (18).png"
+                alt="logo image"
+                width="125px"
+            /></a>
+          </div>
+          <nav>
             <ul id="MenuItems" class="menu3">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="product.html">Product</a></li>
-                <li><a href="about.html">About</a></li>
-                <li id="liTag"><a href="account.html">Contact</a></li>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="product.html">Product</a></li>
+              <li><a href="about.html">About</a></li>
+              <li id="liTag"><a href="account.html">Contact</a></li>
             </ul>
-        </nav>
-        <a href="Cart.html"><img src="img/shop.png" width="30px" height="30px" alt=""></a>
-        
-        <img src="img/menu.png" class="menu-icon" onclick="menutoggle()">
+          </nav>
+          <a href="Cart.html"
+            ><img src="img/shop.png" width="30px" height="30px" alt=""
+          /></a>
+
+          <img src="img/menu.png" class="menu-icon" onclick="menutoggle()" />
         </div>
       </div>
-
-
-<!-- --------------- Account Page ----------  -->
-
-<div class="account-page">
-    <div class="container">
-        <div class="row">
-            <div class="col-2">
-                <img src="img/NicePng_united-states-png_700924.png" alt="" width="100%">
-
-            </div>
-            <div class="col-2">
-                <div class="form-container">
-                    <div class="form-btn">
-                        <span onclick="login()">Login</span>
-                        <span onclick="register()">Sign Up </span>
-                        <hr id="Indicator">
-                    </div>
-                    <form id="LoginForm">
-                        <input type="text" placeholder="Enter Username">
-                        <input type="password" placeholder="password">
-                        <button type="submit" class="btn">Login</button>
-                        <a href="">Forget Password</a>
-                    </form>
-                    <form id="RegForm">
-                        <input type="text" placeholder="Username">
-                        <input type="text" placeholder="Email">
-                        <input type="password" placeholder="Password">
-                        <button type="submit" class="btn">Register</button>
-                    </form>
-                </div>
-            </div>
-        </div>
     </div>
-</div>
 
+    <!-- --------------- Account Page ----------  -->
 
-
+    <div class="account-page">
+      <div class="container">
+        <div class="row">
+          <div class="col-2">
+            <img
+              src="img/NicePng_united-states-png_700924.png"
+              alt=""
+              width="100%"
+            />
+          </div>
+          <div class="col-2">
+            <div class="form-container">
+              <div class="form-btn">
+                <span onclick="login()">Login</span>
+                <span onclick="register()">Sign Up </span>
+                <hr id="Indicator" />
+              </div>
+              <form id="LoginForm">
+                <input type="text" placeholder="Enter Username" />
+                <input type="password" placeholder="password" />
+                <button type="submit" class="btn">Login</button>
+                <a href="">Forget Password</a>
+              </form>
+              <form id="RegForm">
+                <input type="text" placeholder="Username" />
+                <input type="text" placeholder="Email" />
+                <input type="password" placeholder="Password" />
+                <button type="submit" class="btn">Register</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- ---------------Footer -------------- -->
 
@@ -121,11 +128,11 @@
 
     <!-- ----------- js for toggle menu--------- -->
     <script>
-      let url = window.location.href.split('/');
+      let url = window.location.href.split("/");
       let tag = document.getElementById("liTag");
 
-      if(url[url.length - 1] === 'account.html'){
-          tag.style.borderBottom = "1.5px solid black";
+      if (url[url.length - 1] === "account.html") {
+        tag.style.borderBottom = "1.5px solid black";
       }
 
       var MenuItems = document.getElementById("MenuItems");
@@ -140,29 +147,27 @@
       }
     </script>
 
+    <!-- --------- Js for Toggle form ------------  -->
 
-<!-- --------- Js for Toggle form ------------  -->
+    <script>
+      var LoginForm = document.getElementById("LoginForm");
 
-<script>
-    var LoginForm = document.getElementById("LoginForm");
+      var RegForm = document.getElementById("RegForm");
 
-    var RegForm = document.getElementById("RegForm");
+      var Indicator = document.getElementById("Indicator");
 
-    var Indicator = document.getElementById("Indicator");
-
-    function register() {
+      function register() {
         RegForm.style.transform = "translateX(0px)";
 
         LoginForm.style.transform = "translateX(0px)";
         Indicator.style.transform = "translateX(100px)";
-    }
-    function login() {
+      }
+      function login() {
         RegForm.style.transform = "translateX(300px)";
 
         LoginForm.style.transform = "translateX(300px)";
         Indicator.style.transform = "translateX(0px)";
-    }
-</script>
-
+      }
+    </script>
   </body>
 </html>

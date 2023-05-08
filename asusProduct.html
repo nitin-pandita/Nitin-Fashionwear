@@ -34,11 +34,12 @@
               <li><a href="account.html">Contact</a></li>
             </ul>
           </nav>
-          <img src="img/shop.png" width="30px" height="30px" alt="" />
+          <a href="Cart.html">
+          <img src="img/shop.png" width="30px" height="30px" alt="" /></a>
           <img src="img/menu.png" class="menu-icon" onclick="menutoggle()" />
         </div>
       </div>
-
+    </div>
       <!-- ---------------- Single product details -------------------- -->
       <div class="small-container single-product">
         <div class="row">
@@ -66,15 +67,15 @@
 
           <div class="col-2">
             <p>Asus Rog 3</p>
-            <h1>ASUS ROG Phone 3 (Black, 128 GB)  (8 GB RAM)</h1>
-            <h4>₹90,000.</h4>
+            <h1 id="product_name">ASUS ROG Phone 3 (Black, 128 GB)  (8 GB RAM)</h1>
+            <h4 id="prod_price">₹90,000.</h4>
             <select>
               <option value="">Select Color</option>
               <option value="">Black</option>
               <option value="">Phantom Black</option>
             </select>
             <input type="number" value="1" />
-            <a href="" class="btn">Add to Cart</a>
+            <a href="" class="btn add_crt_btn">Add to Cart</a>
             <h3>Product Details <i class="fa fa-indent"> </i></h3>
             <br />
             <p>
@@ -227,5 +228,6 @@
         ProductImg.src = SmallImg[4].src;
       };
     </script>
+    <script src="index.js"></script>
   </body>
 </html>

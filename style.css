@@ -447,7 +447,7 @@ select:focus {
 /* ------------- Cart Items -------------- */
 
 .cart-page {
-  margin: 80px auto;
+  margin: 120px auto;
 }
 table {
   width: 100%;
@@ -494,6 +494,10 @@ td img {
 .total-price {
   display: flex;
   justify-content: flex-end;
+  align-items: center;
+}
+.total-price h1{
+  margin-right:25%;
 }
 .total-price table {
   border-top: 3px solid #ff523b;

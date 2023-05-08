@@ -35,64 +35,71 @@
             </ul>
           </nav>
           <a href="Cart.html">
-          <img src="img/shop.png" width="30px" height="30px" alt="" /></a>
+            <img src="img/shop.png" width="30px" height="30px" alt=""
+          /></a>
           <img src="img/menu.png" class="menu-icon" onclick="menutoggle()" />
         </div>
       </div>
+    </div>
+    <!-- ---------------- Single product details -------------------- -->
+    <div class="small-container single-product">
+      <div class="row">
+        <div class="col-2">
+          <img src="img/acer-1.jpg" width="100%" id="ProductImg" />
 
-      <!-- ---------------- Single product details -------------------- -->
-      <div class="small-container single-product">
-        <div class="row">
-          <div class="col-2">
-            <img src="img/acer-1.jpg" width="100%" id="ProductImg" />
-
-            <div class="small-img-row">
-              <div class="small-img-col">
-                <img class="small-img" src="img/acer-1.jpg" width="100%" />
-              </div>
-              <div class="small-img-col">
-                <img class="small-img" src="img/acer-2.jpg" width="100%" />
-              </div>
-              <div class="small-img-col">
-                <img class="small-img" src="img/acer-3.jpg" width="100%" />
-              </div>
-              <div class="small-img-col">
-                <img class="small-img" src="img/acer-4.jpg" width="100%" />
-              </div>
-              <div class="small-img-col">
-                <img class="small-img" src="img/acer-5.jpg" width="100%" />
-              </div>
+          <div class="small-img-row">
+            <div class="small-img-col">
+              <img class="small-img" src="img/acer-1.jpg" width="100%" />
+            </div>
+            <div class="small-img-col">
+              <img class="small-img" src="img/acer-2.jpg" width="100%" />
+            </div>
+            <div class="small-img-col">
+              <img class="small-img" src="img/acer-3.jpg" width="100%" />
+            </div>
+            <div class="small-img-col">
+              <img class="small-img" src="img/acer-4.jpg" width="100%" />
+            </div>
+            <div class="small-img-col">
+              <img class="small-img" src="img/acer-5.jpg" width="100%" />
             </div>
           </div>
-
-          <div class="col-2">
-            <p>Acer Predator</p>
-            <h1 id="product_name">Acer Predator Helios 9000 Gaming Laptop</h1>
-            <h4 id="prod_price">₹97,000.</h4>
-            <select>
-              <option value="">Select Color</option>
-              <option value="">Black</option>
-              <option value="">Grey</option>
-            </select>
-            <input type="number" value="1" />
-            <a href="" class="btn add_crt_btn">Add to Cart</a>
-            <h3>Product Details <i class="fa fa-indent"> </i></h3>
-            <br />
-            <p>
-                The Acer Predator 500 is a high-performance gaming laptop with a powerful 11th Gen Intel Core i7 processor and NVIDIA GeForce RTX graphics. It also features a 15.6-inch Full HD IPS display with a 144Hz refresh rate for smooth gameplay. Other highlights include a 512GB SSD, 16GB DDR4 RAM, and RGB keyboard. With a slim design and great build quality, the Predator 500 is an excellent choice for gamers looking for a premium gaming experience on the go.
-            </p>
-          </div>
         </div>
+
+        <div class="col-2">
+          <p>Acer Predator</p>
+          <h1 id="product_name">Acer Predator Helios 9000 Gaming Laptop</h1>
+          <h4 id="prod_price">₹97,000.</h4>
+          <select>
+            <option value="">Select Color</option>
+            <option value="">Black</option>
+            <option value="">Grey</option>
+          </select>
+          <input type="number" value="1" />
+          <a href="" class="btn add_crt_btn">Add to Cart</a>
+          <h3>Product Details <i class="fa fa-indent"> </i></h3>
+          <br />
+          <p>
+            The Acer Predator 500 is a high-performance gaming laptop with a
+            powerful 11th Gen Intel Core i7 processor and NVIDIA GeForce RTX
+            graphics. It also features a 15.6-inch Full HD IPS display with a
+            144Hz refresh rate for smooth gameplay. Other highlights include a
+            512GB SSD, 16GB DDR4 RAM, and RGB keyboard. With a slim design and
+            great build quality, the Predator 500 is an excellent choice for
+            gamers looking for a premium gaming experience on the go.
+          </p>
+        </div>
+      </div>
     </div>
 
     <!-- ----------------- Title --------------------- -->
 
-<div class="small-container">
-    <div class="row row-2">
+    <div class="small-container">
+      <div class="row row-2">
         <h2>Related Products</h2>
         <p>View More</p>
+      </div>
     </div>
-</div>
 
     <!-- -------------- Featured Product ------------ -->
     <div class="small-container">
@@ -224,7 +231,7 @@
       SmallImg[3].onclick = function () {
         ProductImg.src = SmallImg[3].src;
       };
-      SmallImg[4].onclick = function() {
+      SmallImg[4].onclick = function () {
         ProductImg.src = SmallImg[4].src;
       };
     </script>

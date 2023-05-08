@@ -35,64 +35,71 @@
             </ul>
           </nav>
           <a href="Cart.html">
-          <img src="img/shop.png" width="30px" height="30px" alt="" /></a>
+            <img src="img/shop.png" width="30px" height="30px" alt=""
+          /></a>
           <img src="img/menu.png" class="menu-icon" onclick="menutoggle()" />
         </div>
       </div>
+    </div>
+    <!-- ---------------- Single product details -------------------- -->
+    <div class="small-container single-product">
+      <div class="row">
+        <div class="col-2">
+          <img src="img/alexa.png" width="100%" id="ProductImg" />
 
-      <!-- ---------------- Single product details -------------------- -->
-      <div class="small-container single-product">
-        <div class="row">
-          <div class="col-2">
-            <img src="img/alexa.png" width="100%" id="ProductImg" />
-
-            <div class="small-img-row">
-              <div class="small-img-col">
-                <img class="small-img" src="img/alexa.jpg" width="100%" />
-              </div>
-              <div class="small-img-col">
-                <img class="small-img" src="img/alexa-1.jpg" width="100%" />
-              </div>
-              <div class="small-img-col">
-                <img class="small-img" src="img/alexa-2.jpg" width="100%" />
-              </div>
-              <div class="small-img-col">
-                <img class="small-img" src="img/alexa-3.jpg" width="100%" />
-              </div>
-              <div class="small-img-col">
-                <img class="small-img" src="img/alexa-4.jpg" width="100%" />
-              </div>
+          <div class="small-img-row">
+            <div class="small-img-col">
+              <img class="small-img" src="img/alexa.jpg" width="100%" />
+            </div>
+            <div class="small-img-col">
+              <img class="small-img" src="img/alexa-1.jpg" width="100%" />
+            </div>
+            <div class="small-img-col">
+              <img class="small-img" src="img/alexa-2.jpg" width="100%" />
+            </div>
+            <div class="small-img-col">
+              <img class="small-img" src="img/alexa-3.jpg" width="100%" />
+            </div>
+            <div class="small-img-col">
+              <img class="small-img" src="img/alexa-4.jpg" width="100%" />
             </div>
           </div>
-
-          <div class="col-2">
-            <p>Alexa Echo</p>
-            <h1 id="product_name">Alexa Echo Dot (3rd Gen) - Smart speaker</h1>
-            <h4 id="prod_price">₹7000.</h4>
-            <select>
-              <option value="">Select Color</option>
-              <option value="">Black</option>
-              <option value="">White</option>
-            </select>
-            <input type="number" value="1" />
-            <a href="" class="btn add_crt_btn">Add to Cart</a>
-            <h3>Product Details <i class="fa fa-indent"> </i></h3>
-            <br />
-            <p>
-              The Echo Dot is a voice-controlled smart speaker with Alexa that can be operated by voice. Alexa can speak English and Hindi. It has improved bass performance compared to Echo Dot 3rd Gen. You can ask Alexa to play music from Amazon Music, Hungama, Spotify, Jio Saavn, Apple Music (some apps may require subscription). You can also voice control Alexa compatible smart appliances like lights, ACs, TVs, geysers and more.
-            </p>
-          </div>
         </div>
+
+        <div class="col-2">
+          <p>Alexa Echo</p>
+          <h1 id="product_name">Alexa Echo Dot (3rd Gen) - Smart speaker</h1>
+          <h4 id="prod_price">₹7000.</h4>
+          <select>
+            <option value="">Select Color</option>
+            <option value="">Black</option>
+            <option value="">White</option>
+          </select>
+          <input type="number" value="1" />
+          <a href="" class="btn add_crt_btn">Add to Cart</a>
+          <h3>Product Details <i class="fa fa-indent"> </i></h3>
+          <br />
+          <p>
+            The Echo Dot is a voice-controlled smart speaker with Alexa that can
+            be operated by voice. Alexa can speak English and Hindi. It has
+            improved bass performance compared to Echo Dot 3rd Gen. You can ask
+            Alexa to play music from Amazon Music, Hungama, Spotify, Jio Saavn,
+            Apple Music (some apps may require subscription). You can also voice
+            control Alexa compatible smart appliances like lights, ACs, TVs,
+            geysers and more.
+          </p>
+        </div>
+      </div>
     </div>
 
     <!-- ----------------- Title --------------------- -->
 
-<div class="small-container">
-    <div class="row row-2">
+    <div class="small-container">
+      <div class="row row-2">
         <h2>Related Products</h2>
         <p>View More</p>
+      </div>
     </div>
-</div>
 
     <!-- -------------- Featured Product ------------ -->
     <div class="small-container">
@@ -224,7 +231,7 @@
       SmallImg[3].onclick = function () {
         ProductImg.src = SmallImg[3].src;
       };
-      SmallImg[4].onclick = function() {
+      SmallImg[4].onclick = function () {
         ProductImg.src = SmallImg[4].src;
       };
     </script>
