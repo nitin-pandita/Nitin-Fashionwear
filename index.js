@@ -24,4 +24,17 @@ add_crt_btn.addEventListener("click", (event) => {
 
   // Save the updated cart items in local storage so we can use it in cart.js later on when updating cart
   localStorage.setItem("cartItems", JSON.stringify(cartItems));
+
+  //Added to cart POPUP
+  const body_sel = document.querySelector(".small-container");
+  let newDiv = document.createElement("div");
+  newDiv.classList.add("cart_popup_sucess");
+  newDiv.innerHTML = "Added to Cart ✔";
+  newDiv.style.opacity = "1";
+
+  setTimeout(() => {
+    newDiv.style.opacity = "0";
+  }, 2000);
+
+  body_sel.appendChild(newDiv);
 });
