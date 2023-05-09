@@ -35,64 +35,71 @@
             </ul>
           </nav>
           <a href="Cart.html">
-          <img src="img/shop.png" width="30px" height="30px" alt="" /></a>
+            <img src="img/shop.png" width="30px" height="30px" alt=""
+          /></a>
           <img src="img/menu.png" class="menu-icon" onclick="menutoggle()" />
         </div>
       </div>
+    </div>
+    <!-- ---------------- Single product details -------------------- -->
+    <div class="small-container single-product">
+      <div class="row">
+        <div class="col-2">
+          <img src="img/alean-1.jpg" width="100%" id="ProductImg" />
 
-      <!-- ---------------- Single product details -------------------- -->
-      <div class="small-container single-product">
-        <div class="row">
-          <div class="col-2">
-            <img src="img/alean-1.jpg" width="100%" id="ProductImg" />
-
-            <div class="small-img-row">
-              <div class="small-img-col">
-                <img class="small-img" src="img/alean-1.jpg" width="100%" />
-              </div>
-              <div class="small-img-col">
-                <img class="small-img" src="img/alean-2.jpg" width="100%" />
-              </div>
-              <div class="small-img-col">
-                <img class="small-img" src="img/alean-4.jpg" width="100%" />
-              </div>
-              <div class="small-img-col">
-                <img class="small-img" src="img/alean-3.jpg" width="100%" />
-              </div>
-              <div class="small-img-col">
-                <img class="small-img" src="img/alean-5.jpg" width="100%" />
-              </div>
+          <div class="small-img-row">
+            <div class="small-img-col">
+              <img class="small-img" src="img/alean-1.jpg" width="100%" />
+            </div>
+            <div class="small-img-col">
+              <img class="small-img" src="img/alean-2.jpg" width="100%" />
+            </div>
+            <div class="small-img-col">
+              <img class="small-img" src="img/alean-4.jpg" width="100%" />
+            </div>
+            <div class="small-img-col">
+              <img class="small-img" src="img/alean-3.jpg" width="100%" />
+            </div>
+            <div class="small-img-col">
+              <img class="small-img" src="img/alean-5.jpg" width="100%" />
             </div>
           </div>
-
-          <div class="col-2">
-            <p>Alienware</p>
-            <h1 id="product_name">Dell Alienware x14 Gaming Laptop</h1>
-            <h4 id="prod_price">₹1,67,990.</h4>
-            <select>
-              <option value="">Select Color</option>
-              <option value="">White</option>
-              <option value="">Black</option>
-            </select>
-            <input type="number" value="1" />
-            <a href="" class="btn add_crt_btn">Add to Cart</a>
-            <h3>Product Details <i class="fa fa-indent"> </i></h3>
-            <br />
-            <p>
-                The Dell Alienware x14 is a powerful and portable gaming laptop that delivers high-performance gaming. It features a 14-inch FHD display with a 144Hz refresh rate. The laptop is powered by an Intel Core i7 processor and NVIDIA GeForce RTX 3060 graphics. The laptop also comes with 16GB of RAM and up to 1TB of SSD storage. It also has Alienware Cryo-Tech cooling technology that keeps the laptop cool during intense gaming sessions.
-            </p>
-          </div>
         </div>
+
+        <div class="col-2">
+          <p>Alienware</p>
+          <h1 id="product_name">Dell Alienware x14 Gaming Laptop</h1>
+          <h4 id="prod_price">₹1,67,990.</h4>
+          <select>
+            <option value="">Select Color</option>
+            <option value="">White</option>
+            <option value="">Black</option>
+          </select>
+          <input type="number" value="1" />
+          <a href="" class="btn add_crt_btn">Add to Cart</a>
+          <h3>Product Details <i class="fa fa-indent"> </i></h3>
+          <br />
+          <p>
+            The Dell Alienware x14 is a powerful and portable gaming laptop that
+            delivers high-performance gaming. It features a 14-inch FHD display
+            with a 144Hz refresh rate. The laptop is powered by an Intel Core i7
+            processor and NVIDIA GeForce RTX 3060 graphics. The laptop also
+            comes with 16GB of RAM and up to 1TB of SSD storage. It also has
+            Alienware Cryo-Tech cooling technology that keeps the laptop cool
+            during intense gaming sessions.
+          </p>
+        </div>
+      </div>
     </div>
 
     <!-- ----------------- Title --------------------- -->
 
-<div class="small-container">
-    <div class="row row-2">
+    <div class="small-container">
+      <div class="row row-2">
         <h2>Related Products</h2>
         <p>View More</p>
+      </div>
     </div>
-</div>
 
     <!-- -------------- Featured Product ------------ -->
     <div class="small-container">
@@ -224,7 +231,7 @@
       SmallImg[3].onclick = function () {
         ProductImg.src = SmallImg[3].src;
       };
-      SmallImg[4].onclick = function() {
+      SmallImg[4].onclick = function () {
         ProductImg.src = SmallImg[4].src;
       };
     </script>

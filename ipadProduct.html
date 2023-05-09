@@ -35,64 +35,73 @@
             </ul>
           </nav>
           <a href="Cart.html">
-          <img src="img/shop.png" width="30px" height="30px" alt="" /></a>
+            <img src="img/shop.png" width="30px" height="30px" alt=""
+          /></a>
           <img src="img/menu.png" class="menu-icon" onclick="menutoggle()" />
         </div>
       </div>
+    </div>
+    <!-- ---------------- Single product details -------------------- -->
+    <div class="small-container single-product">
+      <div class="row">
+        <div class="col-2">
+          <img src="img/ipad-1.jpg" width="100%" id="ProductImg" />
 
-      <!-- ---------------- Single product details -------------------- -->
-      <div class="small-container single-product">
-        <div class="row">
-          <div class="col-2">
-            <img src="img/ipad-1.jpg" width="100%" id="ProductImg" />
-
-            <div class="small-img-row">
-              <div class="small-img-col">
-                <img class="small-img" src="img/ipad-1.jpg" width="100%" />
-              </div>
-              <div class="small-img-col">
-                <img class="small-img" src="img/ipad-3.jpg" width="100%" />
-              </div>
-              <div class="small-img-col">
-                <img class="small-img" src="img/ipad-2.jpg" width="100%" />
-              </div>
-              <div class="small-img-col">
-                <img class="small-img" src="img/ipad-4.jpg" width="100%" />
-              </div>
-              <div class="small-img-col">
-                <img class="small-img" src="img/ipad-5.jpg" width="100%" />
-              </div>
+          <div class="small-img-row">
+            <div class="small-img-col">
+              <img class="small-img" src="img/ipad-1.jpg" width="100%" />
+            </div>
+            <div class="small-img-col">
+              <img class="small-img" src="img/ipad-3.jpg" width="100%" />
+            </div>
+            <div class="small-img-col">
+              <img class="small-img" src="img/ipad-2.jpg" width="100%" />
+            </div>
+            <div class="small-img-col">
+              <img class="small-img" src="img/ipad-4.jpg" width="100%" />
+            </div>
+            <div class="small-img-col">
+              <img class="small-img" src="img/ipad-5.jpg" width="100%" />
             </div>
           </div>
-
-          <div class="col-2">
-            <p>ipad Pro</p>
-            <h1 id="product_name">Apple ipad pro 2023</h1>
-            <h4 id="prod_price">₹1,20,000.</h4>
-            <select>
-              <option value="">Select Color</option>
-              <option value="">Space Grey</option>
-              <option value="">Silver</option>
-            </select>
-            <input type="number" value="1" />
-            <a href="" class="btn add_crt_btn">Add to Cart</a>
-            <h3>Product Details <i class="fa fa-indent"> </i></h3>
-            <br />
-            <p>
-                The latest iPad Pro is a powerful and versatile tablet that offers a premium user experience. It features a stunning 11-inch or 12.9-inch Liquid Retina XDR display with ProMotion technology, delivering a smooth and immersive viewing experience. The iPad Pro is powered by Apple's M2 chip, which delivers fast and efficient performance, making it capable of handling demanding tasks like video editing and graphic design. The tablet is compatible with Apple Pencil (2nd generation) and Magic Keyboard, making it perfect for productivity and creativity
-            </p>
-          </div>
         </div>
+
+        <div class="col-2">
+          <p>ipad Pro</p>
+          <h1 id="product_name">Apple ipad pro 2023</h1>
+          <h4 id="prod_price">₹1,20,000.</h4>
+          <select>
+            <option value="">Select Color</option>
+            <option value="">Space Grey</option>
+            <option value="">Silver</option>
+          </select>
+          <input type="number" value="1" />
+          <a href="" class="btn add_crt_btn">Add to Cart</a>
+          <h3>Product Details <i class="fa fa-indent"> </i></h3>
+          <br />
+          <p>
+            The latest iPad Pro is a powerful and versatile tablet that offers a
+            premium user experience. It features a stunning 11-inch or 12.9-inch
+            Liquid Retina XDR display with ProMotion technology, delivering a
+            smooth and immersive viewing experience. The iPad Pro is powered by
+            Apple's M2 chip, which delivers fast and efficient performance,
+            making it capable of handling demanding tasks like video editing and
+            graphic design. The tablet is compatible with Apple Pencil (2nd
+            generation) and Magic Keyboard, making it perfect for productivity
+            and creativity
+          </p>
+        </div>
+      </div>
     </div>
 
     <!-- ----------------- Title --------------------- -->
 
-<div class="small-container">
-    <div class="row row-2">
+    <div class="small-container">
+      <div class="row row-2">
         <h2>Related Products</h2>
         <p>View More</p>
+      </div>
     </div>
-</div>
 
     <!-- -------------- Featured Product ------------ -->
     <div class="small-container">
@@ -224,7 +233,7 @@
       SmallImg[3].onclick = function () {
         ProductImg.src = SmallImg[3].src;
       };
-      SmallImg[4].onclick = function() {
+      SmallImg[4].onclick = function () {
         ProductImg.src = SmallImg[4].src;
       };
     </script>

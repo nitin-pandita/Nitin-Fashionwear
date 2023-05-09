@@ -38,59 +38,59 @@
           <img src="img/menu.png" class="menu-icon" onclick="menutoggle()" />
         </div>
       </div>
+    </div>
+    <!-- -------------------- About Section ----------------------  -->
 
-      <!-- -------------------- About Section ----------------------  -->
-
-      <div class="container">
-        <div class="about-container">
-            <div class="row">
-            <div class="col-2 about">
-                <h1>Meet the Creator
-                </h1>
-                <div class="rating" style="padding-top: 10px;">
-                  <i class="fa fa-solid fa-star"></i>
-                  <i class="fa fa-solid fa-star"></i>
-                  <i class="fa fa-solid fa-star"></i>
-                  <i class="fa fa-solid fa-star"></i>
-                  <i class="fa fa-solid fa-star"></i>
-              
-              </div>
-                <img src="img/me.jpg" alt="" width="40%" class="about-img">
+    <div class="container">
+      <div class="about-container">
+        <div class="row">
+          <div class="col-2 about">
+            <h1>Meet the Creator</h1>
+            <div class="rating" style="padding-top: 10px">
+              <i class="fa fa-solid fa-star"></i>
+              <i class="fa fa-solid fa-star"></i>
+              <i class="fa fa-solid fa-star"></i>
+              <i class="fa fa-solid fa-star"></i>
+              <i class="fa fa-solid fa-star"></i>
             </div>
-            <div class="col-2">
-                <h2>About Me</h2>
-                <p>Hi, My name is Nitin Pandita and I am a FrontEnd Developer. I have created many beautiful Website and this website is one of them. I am a Artificial Intelligence and Machine Learning Student, I am currently in my Third Year of my Graduation. </p>
+            <img src="img/me.jpg" alt="" width="40%" class="about-img" />
+          </div>
+          <div class="col-2">
+            <h2>About Me</h2>
+            <p>
+              Hi, My name is Nitin Pandita and I am a FrontEnd Developer. I have
+              created many beautiful Website and this website is one of them. I
+              am a Artificial Intelligence and Machine Learning Student, I am
+              currently in my Third Year of my Graduation.
+            </p>
 
-                <h3>Some of My skills are: </h3>
-                <ul>
-                    <li>Html</li>
-                    <progress id="file" value="100" max="100"> 32% </progress>
-                    <li>CSS</li>
-                    <progress id="file" value="100" max="100"> 32% </progress>
+            <h3>Some of My skills are:</h3>
+            <ul>
+              <li>Html</li>
+              <progress id="file" value="100" max="100">32%</progress>
+              <li>CSS</li>
+              <progress id="file" value="100" max="100">32%</progress>
 
-                    <li>JavaScript</li>
-                    <progress id="file" value="80" max="100"> 32% </progress>
+              <li>JavaScript</li>
+              <progress id="file" value="80" max="100">32%</progress>
 
-                    <li>Python</li>
-                    <progress id="file" value="80" max="100"> 32% </progress>
+              <li>Python</li>
+              <progress id="file" value="80" max="100">32%</progress>
 
-                    <li>Java</li>
-                    <progress id="file" value="70" max="100"> 32% </progress>
+              <li>Java</li>
+              <progress id="file" value="70" max="100">32%</progress>
 
-                    <li>Node Js</li>
-                    <progress id="file" value="75" max="100"> 32% </progress>
+              <li>Node Js</li>
+              <progress id="file" value="75" max="100">32%</progress>
 
-                    <li>Bootstrap</li>
-                    <progress id="file" value="60" max="100"> 32% </progress>
-
-                </ul>
-                
-            </div>
-        </div>
+              <li>Bootstrap</li>
+              <progress id="file" value="60" max="100">32%</progress>
+            </ul>
+          </div>
         </div>
       </div>
+    </div>
 
-  
     <!-- ---------------Footer -------------- -->
 
     <div class="footer">
@@ -134,10 +134,10 @@
 
     <!-- ----------- js for toggle menu--------- -->
     <script>
-      let url = window.location.href.split('/');
+      let url = window.location.href.split("/");
       let tag = document.getElementById("liTag");
 
-      if(url[url.length - 1] === 'about.html'){
+      if (url[url.length - 1] === "about.html") {
         tag.style.borderBottom = "1.5px solid black";
       }
 
@@ -174,7 +174,7 @@
       SmallImg[3].onclick = function () {
         ProductImg.src = SmallImg[3].src;
       };
-      SmallImg[4].onclick = function() {
+      SmallImg[4].onclick = function () {
         ProductImg.src = SmallImg[4].src;
       };
     </script>

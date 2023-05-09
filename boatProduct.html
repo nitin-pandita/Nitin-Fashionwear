@@ -35,64 +35,72 @@
             </ul>
           </nav>
           <a href="Cart.html">
-          <img src="img/shop.png" width="30px" height="30px" alt="" /></a>
+            <img src="img/shop.png" width="30px" height="30px" alt=""
+          /></a>
           <img src="img/menu.png" class="menu-icon" onclick="menutoggle()" />
         </div>
       </div>
+    </div>
+    <!-- ---------------- Single product details -------------------- -->
+    <div class="small-container single-product">
+      <div class="row">
+        <div class="col-2">
+          <img src="img/boat.jpg" width="100%" id="ProductImg" />
 
-      <!-- ---------------- Single product details -------------------- -->
-      <div class="small-container single-product">
-        <div class="row">
-          <div class="col-2">
-            <img src="img/boat.jpg" width="100%" id="ProductImg" />
-
-            <div class="small-img-row">
-              <div class="small-img-col">
-                <img class="small-img" src="img/boat.jpg" width="100%" />
-              </div>
-              <div class="small-img-col">
-                <img class="small-img" src="img/boat-1.jpg" width="100%" />
-              </div>
-              <div class="small-img-col">
-                <img class="small-img" src="img/boat-2.jpg" width="100%" />
-              </div>
-              <div class="small-img-col">
-                <img class="small-img" src="img/boat-3.jpg" width="100%" />
-              </div>
-              <div class="small-img-col">
-                <img class="small-img" src="img/boat-4.jpg" width="100%" />
-              </div>
+          <div class="small-img-row">
+            <div class="small-img-col">
+              <img class="small-img" src="img/boat.jpg" width="100%" />
+            </div>
+            <div class="small-img-col">
+              <img class="small-img" src="img/boat-1.jpg" width="100%" />
+            </div>
+            <div class="small-img-col">
+              <img class="small-img" src="img/boat-2.jpg" width="100%" />
+            </div>
+            <div class="small-img-col">
+              <img class="small-img" src="img/boat-3.jpg" width="100%" />
+            </div>
+            <div class="small-img-col">
+              <img class="small-img" src="img/boat-4.jpg" width="100%" />
             </div>
           </div>
-
-          <div class="col-2">
-            <p>Boat headphones</p>
-            <h1 id="product_name">boAt Rockerz 450 Bluetooth Headphones</h1>
-            <h4 id="prod_price">₹3000.</h4>
-            <select>
-              <option value="">Select Color</option>
-              <option value="">Black</option>
-              <option value="">Off white</option>
-            </select>
-            <input type="number" value="1" />
-            <a href="" class="btn add_crt_btn">Add to Cart</a>
-            <h3>Product Details <i class="fa fa-indent"> </i></h3>
-            <br />
-            <p>
-                The Boat Rockerz 450 is a pair of wireless headphones that deliver powerful sound and a comfortable fit. With a battery life of up to 15 hours. The headphones feature 40mm drivers that produce clear and dynamic sound. The headphones also come with built-in controls that allow you to adjust the volume, skip tracks, and take calls without having to reach for your device. With a lightweight and foldable design, the Boat Rockerz 450 is a great option for users who want a versatile and convenient pair of wireless headphones.
-            </p>
-          </div>
         </div>
+
+        <div class="col-2">
+          <p>Boat headphones</p>
+          <h1 id="product_name">boAt Rockerz 450 Bluetooth Headphones</h1>
+          <h4 id="prod_price">₹3000.</h4>
+          <select>
+            <option value="">Select Color</option>
+            <option value="">Black</option>
+            <option value="">Off white</option>
+          </select>
+          <input type="number" value="1" />
+          <a href="" class="btn add_crt_btn">Add to Cart</a>
+          <h3>Product Details <i class="fa fa-indent"> </i></h3>
+          <br />
+          <p>
+            The Boat Rockerz 450 is a pair of wireless headphones that deliver
+            powerful sound and a comfortable fit. With a battery life of up to
+            15 hours. The headphones feature 40mm drivers that produce clear and
+            dynamic sound. The headphones also come with built-in controls that
+            allow you to adjust the volume, skip tracks, and take calls without
+            having to reach for your device. With a lightweight and foldable
+            design, the Boat Rockerz 450 is a great option for users who want a
+            versatile and convenient pair of wireless headphones.
+          </p>
+        </div>
+      </div>
     </div>
 
     <!-- ----------------- Title --------------------- -->
 
-<div class="small-container">
-    <div class="row row-2">
+    <div class="small-container">
+      <div class="row row-2">
         <h2>Related Products</h2>
         <p>View More</p>
+      </div>
     </div>
-</div>
 
     <!-- -------------- Featured Product ------------ -->
     <div class="small-container">
@@ -224,7 +232,7 @@
       SmallImg[3].onclick = function () {
         ProductImg.src = SmallImg[3].src;
       };
-      SmallImg[4].onclick = function() {
+      SmallImg[4].onclick = function () {
         ProductImg.src = SmallImg[4].src;
       };
     </script>

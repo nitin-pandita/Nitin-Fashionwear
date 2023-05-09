@@ -35,64 +35,70 @@
             </ul>
           </nav>
           <a href="Cart.html">
-          <img src="img/shop.png" width="30px" height="30px" alt="" /></a>
+            <img src="img/shop.png" width="30px" height="30px" alt=""
+          /></a>
           <img src="img/menu.png" class="menu-icon" onclick="menutoggle()" />
         </div>
       </div>
+    </div>
+    <!-- ---------------- Single product details -------------------- -->
+    <div class="small-container single-product">
+      <div class="row">
+        <div class="col-2">
+          <img src="img/mac.png" width="100%" id="ProductImg" />
 
-      <!-- ---------------- Single product details -------------------- -->
-      <div class="small-container single-product">
-        <div class="row">
-          <div class="col-2">
-            <img src="img/mac.png" width="100%" id="ProductImg" />
-
-            <div class="small-img-row">
-              <div class="small-img-col">
-                <img class="small-img" src="img/mac.png" width="100%" />
-              </div>
-              <div class="small-img-col">
-                <img class="small-img" src="img/mac-2.jpg" width="100%" />
-              </div>
-              <div class="small-img-col">
-                <img class="small-img" src="img/mac-3.jpg" width="100%" />
-              </div>
-              <div class="small-img-col">
-                <img class="small-img" src="img/mac-4.jpg" width="100%" />
-              </div>
-              <div class="small-img-col">
-                <img class="small-img" src="img/mac-5.jpg" width="100%" />
-              </div>
+          <div class="small-img-row">
+            <div class="small-img-col">
+              <img class="small-img" src="img/mac.png" width="100%" />
+            </div>
+            <div class="small-img-col">
+              <img class="small-img" src="img/mac-2.jpg" width="100%" />
+            </div>
+            <div class="small-img-col">
+              <img class="small-img" src="img/mac-3.jpg" width="100%" />
+            </div>
+            <div class="small-img-col">
+              <img class="small-img" src="img/mac-4.jpg" width="100%" />
+            </div>
+            <div class="small-img-col">
+              <img class="small-img" src="img/mac-5.jpg" width="100%" />
             </div>
           </div>
-
-          <div class="col-2">
-            <p>MacBook Pro</p>
-            <h1 id="product_name">Apple 2023 MacBook Pro Laptop with M2 chip</h1>
-            <h4 id="prod_price">₹150,000.</h4>
-            <select>
-              <option value="">Select Color</option>
-              <option value="">Grey</option>
-              <option value="">Silver</option>
-            </select>
-            <input type="number" value="1" />
-            <a href="" class="btn add_crt_btn">Add to Cart</a>
-            <h3>Product Details <i class="fa fa-indent"> </i></h3>
-            <br />
-            <p>
-                The MacBook 2023 is a powerful laptop that features  M2 chip for fast performance and improved energy efficiency. It has a 13.3-inch Retina display with True Tone technology, providing accurate color reproduction. The MacBook 2021 also includes Thunderbolt/USB 4 ports for fast data transfer and charging, and runs on macOS Big Sur for a seamless user experience.
-            </p>
-          </div>
         </div>
+
+        <div class="col-2">
+          <p>MacBook Pro</p>
+          <h1 id="product_name">Apple 2023 MacBook Pro Laptop with M2 chip</h1>
+          <h4 id="prod_price">₹150,000.</h4>
+          <select>
+            <option value="">Select Color</option>
+            <option value="">Grey</option>
+            <option value="">Silver</option>
+          </select>
+          <input type="number" value="1" />
+          <a href="" class="btn add_crt_btn">Add to Cart</a>
+          <h3>Product Details <i class="fa fa-indent"> </i></h3>
+          <br />
+          <p>
+            The MacBook 2023 is a powerful laptop that features M2 chip for fast
+            performance and improved energy efficiency. It has a 13.3-inch
+            Retina display with True Tone technology, providing accurate color
+            reproduction. The MacBook 2021 also includes Thunderbolt/USB 4 ports
+            for fast data transfer and charging, and runs on macOS Big Sur for a
+            seamless user experience.
+          </p>
+        </div>
+      </div>
     </div>
 
     <!-- ----------------- Title --------------------- -->
 
-<div class="small-container">
-    <div class="row row-2">
+    <div class="small-container">
+      <div class="row row-2">
         <h2>Related Products</h2>
         <p>View More</p>
+      </div>
     </div>
-</div>
 
     <!-- -------------- Featured Product ------------ -->
     <div class="small-container">
@@ -224,7 +230,7 @@
       SmallImg[3].onclick = function () {
         ProductImg.src = SmallImg[3].src;
       };
-      SmallImg[4].onclick = function() {
+      SmallImg[4].onclick = function () {
         ProductImg.src = SmallImg[4].src;
       };
     </script>
