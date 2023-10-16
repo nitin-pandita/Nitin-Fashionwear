@@ -31,7 +31,7 @@ Never made an open source contribution before? No problem!
     <br>
     <li>Title the pull request with a short description of the changes made.</li>
     <br>
-    <li>Wait for the pull request to be reviewed by a maintainer.</li>
+    <li>Wait for the pull request to be reviewed by the maintainer.</li>
     <br>
     <li>Make changes to the pull request if the reviewing maintainer recommends them.</li>
     <br>
